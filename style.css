@@ -1,0 +1,154 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0pc;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
+header, main{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.nav-bar{
+    display: inline;
+    width: 80%;
+}
+
+#logo{
+    width: 28%;
+    height: auto;
+
+}
+.menu-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav{
+    float: right;
+    width: 70%;
+    padding-top: 2%;
+    margin-bottom: auto;
+    
+}
+.topnav a{
+    
+    margin: auto;
+    text-align: center;
+    padding: .5vw;
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: black;
+}
+.topnav a:hover{
+    text-shadow: 0 0 3pX gray;
+}
+ul{
+    padding: 0;
+    text-decoration: none;
+}
+ul li{
+    margin-bottom: 10px;
+}
+.smenu{
+    width: 15%;
+    text-align: left;
+    display: inline;
+    float: left;
+}
+.smenu h4{
+    font-size: 20px;
+}
+.slist{
+    list-style-type: none;
+}
+
+.slist a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-bottom:  em;
+}
+.slist A:hover{
+    text-shadow: 0 0 3pX gray;
+}
+
+#mist-info{
+    width: 78%;
+    text-align: left;
+    float: left;
+}
+
+#mist-info p{
+    margin-top: 0px;
+}
+
+.info-div-r{
+    display: inline-block;
+    width: 73%;
+}
+
+.info-div-l{
+    display: inline-block;
+    width: 73%;
+}
+
+.info-img-l{
+    width: 25%;
+    display: inline;
+    height: auto;
+    float: left;
+}
+.info-img-r{
+    width: 25%;
+    display: inline;
+    height: auto;
+    float: right;
+}
+
+.f-left{
+    float: left;
+}
+
+.p-left{
+    padding-left: 10px;
+}
+
+#MIST-location{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#map{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#footer-content{
+    float: left;
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+#footer-content h2{
+    margin-top: 0px;
+}
+
+#contact li{
+    margin-bottom: 2px;
+}
+
+#contact li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
